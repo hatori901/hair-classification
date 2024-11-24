@@ -2,7 +2,6 @@ streamlit==1.37.1
 streamlit-navigation-bar==3.3.0
 numpy==2.1.0
 transformers==4.46.2
-torchaudio==2.5.0+cu124
 torchvision==0.20.0
 huggingface-hub==0.26.1
 torch==2.5.0+cu124

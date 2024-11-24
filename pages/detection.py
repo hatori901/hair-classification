@@ -11,7 +11,7 @@ def show_detection():
     """)
 
     # Load model
-    classifier = pipeline("image-classification", model="erwinalam/image-classification", device=0)
+    classifier = pipeline("image-classification", model="erwinalam/image-classification")
     
     # Upload gambar
     uploaded_file = st.file_uploader("Pilih gambar model", type=["jpg", "jpeg", "png"])
